@@ -34,6 +34,6 @@ python proposed_fusion_model.py -test_file data/test.fa -false_train_file data/D
 
 * For more information, you can type:<br>
 ```
-python proposed_model.py --help
-python proposed_fusion_model.py --help
+python proposed_model.py -help
+python proposed_fusion_model.py -help
 ```  
