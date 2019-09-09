@@ -7,7 +7,7 @@
 >unique_sequence_ID
 fasta string
 ```
-### proposed model<br>
+### Proposed Model<br>
 * The proposed_model.py can be operated in this way:<br>
 ```
 python proposed_model.py -test_file <file_name> -false_train_file <file_name> -true_train_file <file_name>  -prediction_file <output_prediction_file_name>
@@ -16,7 +16,7 @@ python proposed_model.py -test_file data/test.fa -false_train_file data/DECOY.tr
 ```
 > The true samples in the `data/AMP.tr.fa` file and false samples in the `data/DECOY.tr.fa` will be operated for training. The samples in the `data/test.fa` will be predicted by the trained model. You can get the prediction results in the `prediction_file proposed_prediction_output.txt` of `output` folder.<br>
 
-### proposed fusion model<br>
+### Proposed Fusion Model<br>
 * The proposed_fusion_model.py can be operated in this way:<br>
 ```
 python proposed_fusion_model.py -test_file <file_name> -false_train_file <file_name> -true_train_file <file_name>  -prediction_file <output_prediction_file_name>
